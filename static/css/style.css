@@ -9,14 +9,12 @@ body, html {
 }
 
 footer {
-    /* padding: 10px 0; */
-    height: 60px;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #f8f8f8;
-
-    position: relative;
-    margin-top: -50px; /* negative value of footer height */
-    clear:both;
-    padding-top:20px;
 }
 
 .home-title {
@@ -31,7 +29,17 @@ footer {
     color: #E9EE3F;
 }
 
-.dream-form, label {
+.dream-form {
     font-size: 24px;
-    /* color: #f8f8f8; */
+    font-weight: 700;
+    color: #f8f8f8;
+    background-color:#B8967E;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+.dream-btn {
+    font-size: 24px;
+    color: #f8f8f8;
+    background-color: #47525E;
 }

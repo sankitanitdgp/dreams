@@ -4,7 +4,7 @@
         <title>Dreams bucketlist</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="../static/css/style.css" rel="stylesheet">
-        <link rel="shortcut icon" href="img/favicon.ico'">
+        <link rel="shortcut icon" href="../static/images/fav.png">
     </head>
     <body>
         <div class="container-fluid">
@@ -17,7 +17,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand topnav" href="#">Dreams bucketlist</a>
+                        <a class="navbar-brand topnav" href="#"><img src="../static/images/logo.png"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
@@ -36,8 +36,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="home-title">Dreams bucketlist</p>
-                    <p class="home-body">
-                        Welcome to Dreams bucketlist! <br>
+                    <p class="home-body"><br>
+                        Welcome to Dreams bucketlist! <br><br>
                         Create a list of your dreams <br>
                         and knock them off one by one!
                     </p>
@@ -45,6 +45,10 @@
 
                 <div class="col-md-6">
                     <form class="form-horizontal dream-form" action="#">
+                        
+                        <div class="form-group">
+                            <label class="control-label col-md-12" for="" style="text-align: center;">New to Dreams bucketlist?</label>
+                        </div>
 
                         <div class="form-group">
                             <label class="control-label col-md-6" for="first_name">First name: </label>
@@ -68,20 +72,24 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label col-md-6" for="comfirm_password">Confirm password: </label>
+                            <label class="control-label col-md-6" for="confirm_password">Confirm password: </label>
                             <div class="control-label col-md-6">
-                                <input type="comfirm_password" class="form-control" id="comfirm_password" name="comfirm_password" required>
+                                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
                             </div>
                         </div>
 
-                        <div class="col-md-offset-2 control-label col-md-10">
-                            <button type="submit" class="btn btn-default">Sign up</button>
+                        <div class="form-group">
+                            <label class="control-label col-md-6" for=""></label>
+                            <div class="control-label col-md-6">
+                                <input type="submit" class="btn btn-default dream-btn" id="register" name="register" value="Sign up">
+                            </div>
                         </div>
 
                     </form>
                 </div>
             </div>
         </div>
+        <br><br>
 
         <footer>
             <div class="container-fluid">
@@ -93,8 +101,8 @@
                             <li class="active"><a href="#">Register</a></li>
                             <li class="footer-menu-divider">⋅</li>
                             <li><a href="#">Login</a></li>
+                            <li class="copyright text-muted small" style="float:right;">Copyright © 2018. All Rights Reserved</li>
                         </ul>
-                        <p class="copyright text-muted small">Copyright © 2018. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
