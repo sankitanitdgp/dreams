@@ -3,44 +3,96 @@
     <head>
         <title>Dreams bucketlist</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <!-- <link href="css/style.css" rel="stylesheet"> -->
-        <link rel="shortcut icon" href="img/favicon.ico'">
+        <link href="../static/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../static/images/fav.png">
     </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-            <div class="container topnav">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand topnav" href="#">Dreams bucketlist</a>
+    <body class="other-bg">
+        <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+                <div class="container topnav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand topnav" href="#"><img src="../static/images/logo.png"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li class="active"><a href="#">Bucketlists</a></li>
+                            <li><a href="#">Hi Username!</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <span class="glyphicon glyphicon-cog"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Profile</a></li>
+                                        <li><a href="#">Logout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Home</a></li>
-                        <li class="active"><a href="#">Bucketlists</a></li>
-                        <li><a href="#">Hi Username!</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-                                    <span class="glyphicon glyphicon-cog"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Profile</a></li>
-                                    <li><a href="#">Logout</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="wrapper">
-            <div class="push"></div>
+            </nav>
         </div>
+
+        <br><br>
+        <div class="container-fluid">
+            <div class="row dream-modal">
+                <h1>Dreams bucketlists</h1>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-8 dream-div">
+                    <div class="row dream-modal">
+                        <input type="submit" class="btn btn-default" id="add_new" name="add_new" value="Add new">
+                    </div>
+                    <br>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>View</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Tours</td>
+                                    <td>Places to visit</td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+                                </tr>
+                                <tr>
+                                    <td>Dine</td>
+                                    <td>Awesome diners</td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <br><br>
+
         <footer>
             <div class="container-fluid">
                 <div class="row">
@@ -51,8 +103,8 @@
                             <li class="active"><a href="#">Bucketlists</a></li>
                             <li class="footer-menu-divider">⋅</li>
                             <li><a href="#">Logout</a></li>
+                            <li class="copyright text-muted small" style="float:right;">Copyright © 2018. All Rights Reserved</li>
                         </ul>
-                        <p class="copyright text-muted small">Copyright © 2018. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
