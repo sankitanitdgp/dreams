@@ -26,6 +26,6 @@ class User:
 		return None
 
 	def delete_list(self, int_p1):
-		return none
+		return None
 	
 
