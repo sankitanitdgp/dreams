@@ -16,37 +16,44 @@ You will need to have [python and pip installed](https://www.python.org/download
 
 ### Running the app
 
-Once you have cloned this repo to your local machine, run the following commands from the root of your cloned repo.
+Once you have cloned this repository to your local machine, run the following commands from the root of your cloned repository.
 
 Install virtual environment:
-```
+
+```bash
+#!/bin/bash
 pip install virtualenv
 ```
 
 Create a virtual environment (Mac OS):
-```
+
+```bash
+#!/bin/bash
 virtualenv ../dreams-venv --python=python3
 ```
 
 Activate the virtual environment (Mac OS):
-```
+
+```bash
+#!/bin/bash
 source ../dreams-venv/bin/activate
 ```
 
 Install the dependencies required:
 
-```
+```bash
+#!/bin/bash
 pip install -r requirements.txt
 ```
 
 Now you can run /src/app.py to initiate the app:
 
-```
+```bash
+#!/bin/bash
 python /src/app.py
 ```
 
 This should initiate a flask web app running on port 8080 on your local host.
-
 
 ## Contributing
 
