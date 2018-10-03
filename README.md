@@ -1,22 +1,46 @@
 # Dreams
 
-### A demo bucket list on Dreams
+A demo bucket list on Dreams
 
- 1. In order to set up this repository in your local machine simply use fork option available at the top right corner of your screen.
+## Getting Started
 
-2. As soon as you click on the fork option it will ask for the account where you want this repository to be forked.
+This is an open source project and all contributions are welcome.
 
-3. Select the account you want the repository and that repository will be present in your's account repository section.
+In order to set up this repository in your local machine simply use the fork option available at the top right corner of this page.
 
-4. Now simply download that file from your repository section into your machine and hence you have the files in your local machine.
+### Prerequisites
 
-5. In order to add your details in the contributor.md file follow the format given below.
+You will need to have [python and pip installed](https://www.python.org/downloads/) locally to run this project.
 
-6. Firstly write your fullname inside square brackets and then paste the link to your github profile inside round brackets next to your full name and then your link will look like this.
+### Running the app
 
-For example: [Abhishek Chauhan](https://github.com/abhi8953).
+Once you have cloned this repo to your local machine, run the following commands from the root of your cloned repo.
 
-### Contributors
+Install the dependencies required:
+
+```
+pip install -r requirements.txt
+```
+
+Now you can run /src/app.py to initiate the app:
+
+```
+python /src/app.py
+```
+
+This should initiate a flask web app running on port 8080 on your local host.
+
+
+## Contributing
+
+This is an open source project welcoming all contributions.
+
+Feel free to make a PR for any enhancements or check out the issues page for suggested fixes.
+
+For those who wish to have their name included in the contributors list please also add your name to the list as part of your PR in the same format as the other contributors.
+
+## Contributors
+
 [Abhishek Chauhan](https://github.com/abhi8953)
 
 [Rohan Sharma](https://github.com/RhnSharma)
