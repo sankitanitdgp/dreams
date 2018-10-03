@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     width: 100%;
     height: 100%;
 }
@@ -16,20 +17,20 @@ nav {
     width: 100%;
 }
 
-nav .nav-item{
+nav .nav-item {
     margin: 5px 0 0 0;
 }
 
-nav .nav-item li{
+nav .nav-item li {
     display: inline;
     padding: 10px;
 }
 
-nav .nav-item li div{
+nav .nav-item li div {
     display: inline;
 }
 
-nav .nav-item li a{
+nav .nav-item li a {
     color: black;
 }
 
@@ -49,10 +50,10 @@ nav .nav-item li a{
     font-size: 24px;
     font-weight: 700;
     color: #f8f8f8;
-    background-color:#B8967E;
+    background-color: #B8967E;
     padding: 10px;
     opacity: 0.7;
-    box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -85,29 +86,29 @@ nav .nav-item li a{
 
 .dream-div tbody {
     font-size: 20px;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .dream-div thead {
     font-size: 24px;
-    background-color:#EFF3F7;
+    background-color: #EFF3F7;
 }
 
-.dream-div .edit-btn{
+.dream-div .edit-btn {
     width: 35px;
     background-color: #2ecc71;
     border-radius: 50%;
     padding: 3px 0 0 7px;
 }
 
-.dream-div .delete-btn{
+.dream-div .delete-btn {
     width: 35px;
     background-color: #f22613;
     border-radius: 50%;
     padding: 4px 0 0 7px;
 }
 
-.dream-div .white{
+.dream-div .white {
     color: white;
 }
 
@@ -130,5 +131,4 @@ nav .nav-item li a{
 
 .center {
     padding: 70px 20px;
-    
 }
