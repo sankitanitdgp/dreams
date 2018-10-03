@@ -41,6 +41,4 @@ For those who wish to have their name included in the contributors list please a
 
 ## Contributors
 
-[Abhishek Chauhan](https://github.com/abhi8953)
-
-[Rohan Sharma](https://github.com/RhnSharma)
+See [Contributors.md](./Contributors.md).
