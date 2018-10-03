@@ -12,6 +12,27 @@ footer {
     background-color: #f8f8f8;
 }
 
+nav {
+    width: 100%;
+}
+
+nav .nav-item{
+    margin: 5px 0 0 0;
+}
+
+nav .nav-item li{
+    display: inline;
+    padding: 10px;
+}
+
+nav .nav-item li div{
+    display: inline;
+}
+
+nav .nav-item li a{
+    color: black;
+}
+
 .home-title {
     font-weight: 700;
     font-size: 4em;
@@ -58,21 +79,36 @@ footer {
 }
 
 .dream-div {
-    background-color:#B8967E;
+    background-color: rgba(184, 150, 126, 0.6);
     padding: 20px;
-    opacity: 0.7;
 }
 
 .dream-div tbody {
     font-size: 20px;
-    font-weight: 100;
     background-color:#FFFFFF;
 }
 
 .dream-div thead {
     font-size: 24px;
-    font-weight: 700;
-    background-color: #C9C299;/* #EFF3F7; */
+    background-color:#EFF3F7;
+}
+
+.dream-div .edit-btn{
+    width: 35px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    padding: 3px 0 0 7px;
+}
+
+.dream-div .delete-btn{
+    width: 35px;
+    background-color: #f22613;
+    border-radius: 50%;
+    padding: 4px 0 0 7px;
+}
+
+.dream-div .white{
+    color: white;
 }
 
 .dream-modal {
@@ -91,6 +127,7 @@ footer {
     font-weight: 700;
     color: #f8f8f8;
 }
+
 .center {
     padding: 70px 20px;
     
