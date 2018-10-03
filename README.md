@@ -16,6 +16,21 @@ You will need to have [python and pip installed](https://www.python.org/download
 
 Once you have cloned this repo to your local machine, run the following commands from the root of your cloned repo.
 
+Install virtual environment:
+```
+pip install virtualenv
+```
+
+Create a virtual environment (Mac OS):
+```
+virtualenv ../dreams-venv --python=python3
+```
+
+Activate the virtual environment (Mac OS):
+```
+source ../dreams-venv/bin/activate
+```
+
 Install the dependencies required:
 
 ```
