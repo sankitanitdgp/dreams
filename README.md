@@ -1,5 +1,7 @@
 # Dreams
 
+[![CircleCI](https://circleci.com/gh/Rwothoromo/dreams.svg?style=svg)](https://circleci.com/gh/Rwothoromo/dreams)
+
 A demo bucket list on Dreams
 
 ## Getting Started
