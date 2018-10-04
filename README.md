@@ -57,7 +57,7 @@ This should initiate a flask web app running on port 8080 on your local host.
 
 ## Contributing
 
-This is an open source project welcoming all contributions.
+This is an open source project welcoming all contributions (See [CONTRIBUTING.md](./CONTRIBUTING.md)).
 
 Feel free to make a PR for any enhancements or check out the issues page for suggested fixes.
 
