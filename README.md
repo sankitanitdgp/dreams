@@ -1,6 +1,7 @@
 # Dreams
 
 [![CircleCI](https://circleci.com/gh/Rwothoromo/dreams.svg?style=svg)](https://circleci.com/gh/Rwothoromo/dreams)
+[![Open Source Helpers](https://www.codetriage.com/rwothoromo/dreams/badges/users.svg)](https://www.codetriage.com/rwothoromo/dreams)
 
 A demo bucket list on Dreams
 
