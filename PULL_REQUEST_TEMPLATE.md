@@ -15,3 +15,7 @@
 #### Screenshots?
 
 fixes #<issue_number>
+ 
+#### What are some of the essential criteria that the one wishing to create a PR should do?
+- <criteria 01>
+- <criteria 02>
